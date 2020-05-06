@@ -36,6 +36,7 @@ npm install bootstrap
 
 ## Import Components & Bootstrap
 
+
 1. Import your components in the `App.js` file at the root of your React App
 
 ```javascript
