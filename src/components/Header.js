@@ -31,28 +31,21 @@ class Header extends Component {
     if (this.state.innerWidth >= 600) {
       return (
         <React.Fragment>
-          <a href="#home">Home</a>
-          <a href="#news">News</a>
-          <a href="#contact">Contact</a>
-          <a href="#about">About</a>
+          <a href="#home">{links}</a>
         </React.Fragment>
       );
     } else if (this.state.innerWidth < 600 && this.state.showNavLinks) {
       return (
         <React.Fragment>
-          <button onClick={this.toggleNav} className="midnight icon">
+          <button onClick={this.toggleNav} className={theme} className="icon">
             <i className="fa fa-bars"></i>
           </button>
-
-          <a href="#home">Home</a>
-          <a href="#news">News</a>
-          <a href="#contact">Contact</a>
-          <a href="#about">About</a>
+          <a href="#home">{links}</a>
         </React.Fragment>
       );
     } else {
       return (
-        <button onClick={this.toggleNav} className="midnight icon">
+        <button onClick={this.toggleNav} className={theme} className="icon">
           <i className="fa fa-bars"></i>
         </button>
       );

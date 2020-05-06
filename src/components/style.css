@@ -1,0 +1,159 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+}
+.logo {
+  padding: 20px;
+  float: left;
+  margin-left: 40px;
+}
+
+img {
+  padding: 20px;
+}
+
+.navbar a,
+.navbar button {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  text-align: left;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.midnight,
+.midnight button {
+  border: none;
+  background-color: #333;
+}
+
+.midnight a:hover,
+.midnight button:hover {
+  background-color: #606061;
+  border: none;
+}
+
+.midnight a,
+.midnight button {
+  color: white;
+}
+
+.lagoon,
+.lagoon button {
+  border: none;
+  background-color: #5986b5;
+}
+
+.lagoon a:hover,
+.lagoon button:hover {
+  background-color: #839ab7;
+  border: none;
+}
+
+.lagoon a,
+.lagoon button {
+  color: white;
+}
+
+.sunset,
+.sunset button {
+  background-color: #a41313;
+  border: none;
+}
+
+.sunset a:hover,
+.sunset button:hover {
+  background-color: #e56800;
+  border: none;
+}
+
+.sunset a,
+.sunset button {
+  color: #f8de7e;
+}
+
+.moon,
+.moon button {
+  background-color: #f8f8ff;
+  border: none;
+}
+
+.moon a:hover,
+.moon button:hover {
+  background-color: #cacad0;
+  border: none;
+}
+
+.moon a,
+.moon button {
+  color: #282829;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(60, 70, 57, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.logo {
+  padding: 5px;
+  float: left;
+  margin-left: 5px;
+}
+
+/* .icon {
+  display: none;
+} */
+
+@media screen and (max-width: 600px) {
+  .icon {
+    display: block;
+    padding: 10px;
+    background-color: inherit;
+    color: inherit;
+  }
+
+  .nav-links {
+    flex-direction: column;
+  }
+}
