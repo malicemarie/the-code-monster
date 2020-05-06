@@ -20,9 +20,7 @@
 
 If all is well the React app will automatically install - this takes a few minutes!
 
-
 ## Installing Code Monster & Dependencies
-
 
 1. Once React has completed, navigate to the root of your new app and run the following to install Code Monster dependencies:
 
@@ -30,17 +28,15 @@ If all is well the React app will automatically install - this takes a few minut
 npm install monster
 ```
 
-
 2. Once Code Monster has installed you must also install bootstrap for sizing and response using:
 
 ```bash
 npm install bootstrap
 ```
 
+## Import Components & Bootstrap
 
-## Import Components
-
-1. Import your components in the App.js file at the root of your React App
+1. Import your components in the `App.js` file at the root of your React App
 
 ```javascript
 import { Header } from "monster";
@@ -52,11 +48,17 @@ or if you would like to use multiple elements:
 import { Button, Footer } from "monster";
 ```
 
+2. Import Bootstrap in the `index.js` file at the root of your app
+
+```javascript
+import "bootstrap/dist/css/bootstrap.css";
+```
+
 ## Props
 
 - You can pass any information you would like into the component using props.
 - View our [documentation](https://github.com/monster) for a full list of available props and classes for each component.
-- Call the Component and pass the props in the App.js file in the root of your React App
+- Call the Component and pass the props in the `App.js` file in the root of your React App
 
 See this example, the client is using the Button and the Header from code-monser.
 
@@ -89,4 +91,3 @@ For example you can add inline styling or addition props to adjust the width of 
   <div class="col-sm-12 col-lg-6"></div>
 </div>
 ```
-
