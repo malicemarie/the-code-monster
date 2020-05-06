@@ -37,10 +37,10 @@ npm install monster
 npm install bootstrap
 ```
 
+## Import Components & Bootstrap
 
-## Import Components
 
-1. Import your components in the App.js file at the root of your React App
+1. Import your components in the `App.js` file at the root of your React App
 
 ```javascript
 import { Header } from "monster";
@@ -52,11 +52,17 @@ or if you would like to use multiple elements:
 import { Button, Footer } from "monster";
 ```
 
+2. Import Bootstrap in the `index.js` file at the root of your app
+
+```javascript
+import "bootstrap/dist/css/bootstrap.css";
+```
+
 ## Props
 
 - You can pass any information you would like into the component using props.
 - View our [documentation](https://github.com/monster) for a full list of available props and classes for each component.
-- Call the Component and pass the props in the App.js file in the root of your React App
+- Call the Component and pass the props in the `App.js` file in the root of your React App
 
 See this example, the client is using the Button and the Header from code-monser.
 
