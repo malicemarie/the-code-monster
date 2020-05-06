@@ -20,12 +20,18 @@
 
 If all is well the React app will automatically install - this takes a few minutes!
 
-## Installing Code Monster
+## Installing Code Monster & Dependencies
 
 1. Once React has completed, navigate to the root of your new app and run the following to install Code Monster dependencies:
 
 ```bash
 npm install monster
+```
+
+2. Once Code Monster has installed you must also install bootstrap for sizing and response using:
+
+```bash
+npm install bootstrap
 ```
 
 ## Import Components
@@ -57,7 +63,7 @@ import { Button, Paragraph } from "publish-npm-feztheforeigner";
 function App() {
   return (
     <div className="App">
-      <Button text={"Submit"} />
+      <Button value={"Submit"} />
       <Header links={"Home"} theme={"midnight"} logo={"logo.png"} />
     </div>
   );
@@ -65,3 +71,17 @@ function App() {
 ```
 
 <img src="./public/pro-tip.jpg" width="20">Pro Tip: If the prop name is plural you will likely want to use .map() to move an array of items into the component
+
+Don't forget - View Classes and Properties [here](https://DEPLOYED-STORYBOOK-HERE)
+
+## Working Together
+
+Code Monster and Bootstrap go hand in hand. Use our themes and compenent designs and add your own bootstrap custom sizing or use the default Code Monster provides.
+
+For example you can add inline styling or addition props to adjust the width of your contact form using bootstrap classes.
+
+```javascript
+<div class="row">
+  <div class="col-sm-12 col-lg-6"></div>
+</div>
+```
