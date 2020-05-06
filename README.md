@@ -20,7 +20,9 @@
 
 If all is well the React app will automatically install - this takes a few minutes!
 
+
 ## Installing Code Monster & Dependencies
+
 
 1. Once React has completed, navigate to the root of your new app and run the following to install Code Monster dependencies:
 
@@ -28,11 +30,13 @@ If all is well the React app will automatically install - this takes a few minut
 npm install monster
 ```
 
+
 2. Once Code Monster has installed you must also install bootstrap for sizing and response using:
 
 ```bash
 npm install bootstrap
 ```
+
 
 ## Import Components
 
@@ -85,3 +89,4 @@ For example you can add inline styling or addition props to adjust the width of 
   <div class="col-sm-12 col-lg-6"></div>
 </div>
 ```
+
