@@ -1,68 +1,87 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Welcome to
 
-## Available Scripts
+<img src="./public/codeMonster.png" width="400">
 
-In the project directory, you can run:
+## Get Started with React
 
-### `yarn start`
+1. Create an empty GitHub repo and clone it to your local machine.
+   <br>
+   <img src="./public/pro-tip.jpg" width="20">Pro tip: for a seamless React install use the naming convention "lovercase-hyphen"
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Navigate to the root of your github repo in your text editor (The repo should be empty, this is perfect!)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+1. Run the following code in your terminal:
 
-### `yarn test`
+```bash
+   npx create-react-app .
+```
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+(If you are new to React App or having trouble you can always [start here](https://reactjs.org/docs/getting-started.html).)
 
-### `yarn build`
+If all is well the React app will automatically install - this takes a few minutes!
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installing Code Monster & Dependencies
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+1. Once React has completed, navigate to the root of your new app and run the following to install Code Monster dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm install monster
+```
 
-### `yarn eject`
+2. Once Code Monster has installed you must also install bootstrap for sizing and response using:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+npm install bootstrap
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Import Components
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. Import your components in the App.js file at the root of your React App
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```javascript
+import { Header } from "monster";
+```
 
-## Learn More
+or if you would like to use multiple elements:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```javascript
+import { Button, Footer } from "monster";
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Props
 
-### Code Splitting
+- You can pass any information you would like into the component using props.
+- View our [documentation](https://github.com/monster) for a full list of available props and classes for each component.
+- Call the Component and pass the props in the App.js file in the root of your React App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+See this example, the client is using the Button and the Header from code-monser.
 
-### Analyzing the Bundle Size
+```javascript
+import React from "react";
+import { Button, Paragraph } from "publish-npm-feztheforeigner";
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+function App() {
+  return (
+    <div className="App">
+      <Button value={"Submit"} />
+      <Header links={"Home"} theme={"midnight"} logo={"logo.png"} />
+    </div>
+  );
+}
+```
 
-### Making a Progressive Web App
+<img src="./public/pro-tip.jpg" width="20">Pro Tip: If the prop name is plural you will likely want to use .map() to move an array of items into the component
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+Don't forget - View Classes and Properties [here](https://DEPLOYED-STORYBOOK-HERE)
 
-### Advanced Configuration
+## Working Together
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+Code Monster and Bootstrap go hand in hand. Use our themes and compenent designs and add your own bootstrap custom sizing or use the default Code Monster provides.
 
-### Deployment
+For example you can add inline styling or addition props to adjust the width of your contact form using bootstrap classes.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+```javascript
+<div class="row">
+  <div class="col-sm-12 col-lg-6"></div>
+</div>
+```
