@@ -15,6 +15,7 @@ function App() {
       />
 
       <Button theme={"midnight"} value={"Submit"} size={"monster"} />
+      <Button theme={"moon"} value={"Submit"} size={"monster"} />
     </div>
   );
 }
