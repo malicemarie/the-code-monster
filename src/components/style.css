@@ -15,6 +15,7 @@ img {
   padding: 20px;
 }
 
+
 .btn {
   border: solid black 1px;
 }
@@ -72,6 +73,19 @@ img {
 .lagoon a:hover,
 .lagoon button:hover,
 .btn-lagoon:hover {
+.midnight a,
+.midnight button {
+  color: white;
+}
+
+.lagoon,
+.lagoon button {
+  border: none;
+  background-color: #5986b5;
+}
+
+.lagoon a:hover,
+.lagoon button:hover {
   background-color: #839ab7;
   border: none;
 }
@@ -83,6 +97,7 @@ img {
 }
 
 .sunset,
+
 .sunset button,
 .btn-sunset {
   font-family: serif;
@@ -126,6 +141,7 @@ img {
   border: none;
 }
 
+
 .moon a {
   font-family: serif;
   color: #282829;
@@ -166,6 +182,7 @@ img {
 }
 
 /**************** Dropdown Component Styles *********************/
+
 
 .dropdown .dropbtn {
   font-size: 16px;
@@ -210,9 +227,6 @@ img {
   margin-left: 5px;
 }
 
-/* .icon {
-    display: none;
-  } */
 
 @media screen and (max-width: 600px) {
   .icon {
