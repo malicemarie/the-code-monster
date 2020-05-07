@@ -4,7 +4,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.navbar {
+.navbar,
+.footer {
   overflow: hidden;
 }
 .logo {
@@ -20,22 +21,13 @@ img {
 .btn {
   border: solid black 1px;
 }
-/* -------------------- SOCIAL ICONS ------------------------*/
-#social-icon i {
-  padding: 10px;
-}
-#social-icon i:hover {
-  opacity: 50%;
-}
-
-#social-icon a:hover {
-  background-color: transparent;
-}
 
 /* -------------------- THEME CLASS STYLING ------------------------*/
 
 .navbar a,
-.navbar button {
+.footer a,
+.navbar button,
+.footer button {
   font-family: serif;
   font-size: 16px;
   text-align: left;
@@ -178,6 +170,26 @@ img {
 
 .btn-default:hover {
   background-color: red;
+}
+
+/* -------------------- SOCIAL ICONS ------------------------*/
+#social-icon i {
+  padding: 10px;
+}
+#social-icon i:hover {
+  opacity: 50%;
+}
+
+#social-icon a:hover {
+  background-color: transparent;
+}
+
+/* -------------------- FOOTER LOGO ------------------------*/
+
+.footer.foot-contents {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
 }
 
 /**************** Dropdown Component Styles *********************/

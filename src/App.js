@@ -10,27 +10,39 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Navbar
-        theme={"midnight"}
-        links={"Home"}
-        logo={"./codeMonster(light).png"}
-      />
+      <div>
+        {" "}
+        <Navbar
+          theme={"midnight"}
+          links={"Home"}
+          logo={"./codeMonster(light).png"}
+        />
+      </div>
+
       <div>
         <Button theme={"midnight"} value={"Submit"} size={"monster"} />
         <Button theme={"moon"} value={"Submit"} size={"monster"} />
       </div>
 
-      <Footer />
+      <div>
+        <Social
+          size={"3x"}
+          facebookLink={"https://www.facebook.com"}
+          twitterLink={"https://www.twitter.com"}
+          instagramLink={"https://www.instagram.com"}
+          githubLink={"https://www.github.com"}
+          googlePlusLink={"https://https://myaccount.google.com/"}
+          emailAddress={"support@code-monster.com"}
+        />
+      </div>
 
-      <Social
-        size={"3x"}
-        facebookLink={"https://www.facebook.com"}
-        twitterLink={"https://www.twitter.com"}
-        instagramLink={"https://www.instagram.com"}
-        githubLink={"https://www.github.com"}
-        googlePlusLink={"https://https://myaccount.google.com/"}
-        emailAddress={"support@code-monster.com"}
-      />
+      <div>
+        <Footer
+          theme={"midnight"}
+          footerLogo={"./codeMonster(light).png"}
+          logoHeight={"65"}
+        />
+      </div>
     </div>
   );
 }
