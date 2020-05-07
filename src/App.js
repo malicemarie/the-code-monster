@@ -1,7 +1,6 @@
 import React from "react";
 
-
-import Header from "./components/Header";
+import Navbar from "./components/Navbar";
 import Button from "./components/Button";
 
 import "./App.css";
@@ -9,8 +8,13 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Button theme={"midnight"} value={"Submit"} />
-      <Header theme={"midnight"} links={"Home"} logo={"./codeMonster.png"} />
+      <Navbar
+        theme={"midnight"}
+        links={"Home"}
+        logo={"./codeMonster(light).png"}
+      />
+
+      <Button theme={"midnight"} value={"Submit"} size={"monster"} />
     </div>
   );
 }
