@@ -210,10 +210,6 @@ img {
   margin-left: 5px;
 }
 
-/* .icon {
-    display: none;
-  } */
-
 @media screen and (max-width: 600px) {
   .icon {
     display: block;
