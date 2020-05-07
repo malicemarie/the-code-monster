@@ -6,7 +6,7 @@
 
 1. Create an empty GitHub repo and clone it to your local machine.
    <br>
-   <img src="./public/pro-tip.jpg" width="20">Pro tip: for a seamless React install use the naming convention "lovercase-hyphen"
+   <img src="./public/proTip.png" width="20">Pro tip: for a seamless React install use the naming convention "lovercase-hyphen"
 
 1. Navigate to the root of your github repo in your text editor (The repo should be empty, this is perfect!)
 
@@ -20,16 +20,13 @@
 
 If all is well the React app will automatically install - this takes a few minutes!
 
-
 ## Installing Code Monster & Dependencies
-
 
 1. Once React has completed, navigate to the root of your new app and run the following to install Code Monster dependencies:
 
 ```bash
 npm install monster
 ```
-
 
 2. Once Code Monster has installed you must also install bootstrap for sizing and response using:
 
@@ -80,7 +77,7 @@ function App() {
 }
 ```
 
-<img src="./public/pro-tip.jpg" width="20">Pro Tip: If the prop name is plural you will likely want to use .map() to move an array of items into the component
+<img src="./public/proTip.png" width="20">Pro Tip: If the prop name is plural you will likely want to use .map() to move an array of items into the component
 
 Don't forget - View Classes and Properties [here](https://DEPLOYED-STORYBOOK-HERE)
 
@@ -95,4 +92,3 @@ For example you can add inline styling or addition props to adjust the width of 
   <div class="col-sm-12 col-lg-6"></div>
 </div>
 ```
-
