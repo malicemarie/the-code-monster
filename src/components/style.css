@@ -54,7 +54,8 @@ img {
 }
 
 .lagoon a:hover,
-.lagoon button:hover {
+.lagoon button:hover,
+.btn-lagoon:hover {
   background-color: #839ab7;
   border: none;
 }
