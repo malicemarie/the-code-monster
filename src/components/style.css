@@ -15,9 +15,13 @@ img {
   padding: 20px;
 }
 
+.btn {
+  border: solid black 1px;
+}
+
 .navbar a,
 .navbar button {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: serif;
   font-size: 16px;
   text-align: left;
   padding: 16px;
@@ -31,72 +35,137 @@ img {
 }
 
 .midnight,
-.midnight button {
+.midnight button,
+.btn-midnight {
+  font-family: serif;
   border: none;
   background-color: #333;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
 }
 
 .midnight a:hover,
-.midnight button:hover {
+.midnight button:hover,
+.btn-midnight:hover {
   background-color: #606061;
   border: none;
 }
 
-.midnight a,
-.midnight button {
+.midnight a {
   color: white;
+  font-family: serif;
 }
 
 .lagoon,
-.lagoon button {
+.lagoon button,
+.btn-lagoon {
+  padding: 10px 30px;
   border: none;
   background-color: #5986b5;
+  text-align: center;
+  text-decoration: none;
+  font-family: serif;
 }
 
 .lagoon a:hover,
-.lagoon button:hover {
+.lagoon button:hover,
+.btn-lagoon:hover {
   background-color: #839ab7;
   border: none;
 }
 
 .lagoon a,
 .lagoon button {
+  font-family: serif;
   color: white;
 }
 
 .sunset,
-.sunset button {
+.sunset button,
+.btn-sunset {
+  font-family: serif;
   background-color: #a41313;
   border: none;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #f8de7e;
 }
 
 .sunset a:hover,
-.sunset button:hover {
+.sunset button:hover,
+.btn-sunset:hover {
   background-color: #e56800;
   border: none;
 }
 
 .sunset a,
 .sunset button {
+  font-family: serif;
   color: #f8de7e;
 }
 
 .moon,
-.moon button {
+.moon button,
+.btn-moon {
+  font-family: serif;
   background-color: #f8f8ff;
   border: none;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #282829;
 }
 
 .moon a:hover,
-.moon button:hover {
+.moon button:hover,
+.btn-moon:hover {
   background-color: #cacad0;
   border: none;
 }
 
-.moon a,
-.moon button {
+.moon a {
+  font-family: serif;
   color: #282829;
 }
+
+/**************** Button Default Component Styles *********************/
+.sm {
+  font-size: 85%;
+}
+
+.md {
+  font-size: 105%;
+}
+
+.lg {
+  font-size: 125%;
+}
+
+.monster {
+  font-size: 150%;
+}
+
+.btn-default {
+  border: none;
+  background-color: black;
+  font-family: serif;
+  color: white;
+  width: auto;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.btn-default:hover {
+  background-color: red;
+}
+
+/**************** Dropdown Component Styles *********************/
 
 .dropdown .dropbtn {
   font-size: 16px;
@@ -142,8 +211,8 @@ img {
 }
 
 /* .icon {
-  display: none;
-} */
+    display: none;
+  } */
 
 @media screen and (max-width: 600px) {
   .icon {
