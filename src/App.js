@@ -2,13 +2,11 @@ import React from "react";
 
 import Navbar from "./components/Navbar";
 import Button from "./components/Button";
-
 import Footer from "./components/Footer";
 import Social from "./components/Social";
-
 import Form from "./components/Form";
 import Card from "./components/Card";
-
+import Search from "./components/Search";
 
 import "./App.css";
 
@@ -16,7 +14,6 @@ function App() {
   return (
     <div className="App">
       <div>
-        {" "}
         <Navbar
           theme={"midnight"}
           links={"Home"}
@@ -24,10 +21,8 @@ function App() {
         />
       </div>
 
-
       <div>
         <Button theme={"midnight"} value={"Submit"} size={"monster"} />
-        <Button theme={"moon"} value={"Submit"} size={"monster"} />
       </div>
 
       <div>
@@ -51,18 +46,32 @@ function App() {
       </div>
 
       <div>
-          <Card
-        theme='moon'
-        cardImage='./logo512.png'
-        title='Moon!'
-        value='Write a caption!'/>
+        <Card
+          theme={"midnight"}
+          cardImage={"./gagamidnight.jpeg"}
+          title={"Midnight"}
+          value={"Write a caption!"}
+        />
       </div>
-      
 
-      <Button theme={"midnight"} value={"Submit"} size={"monster"} />
+      <div>
+        <Form
+          theme={"midnight"}
+          placeholder1={"Your Name"}
+          placeholder2={"Your Phone Number (optional)"}
+          placeholder3={"Email"}
+          btnValue1={"Submit"}
+          btnValue2={"Clear"}
+        />
+      </div>
 
-      <Form theme={"midnight"} placeholder1={"Your Name"} placeholder2={"Your Phone Number (optional)"} placeholder3={"Email"} btnValue1={'Submit'} btnValue2={'Clear'} />
-
+      <div>
+        <Search
+          theme={"midnight"}
+          value={"Search"}
+          placeholderText={"Start your search here..."}
+        />
+      </div>
     </div>
   );
 }
