@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import Social from "./components/Social";
 
 import Form from "./components/Form";
+import Card from "./components/Card";
 
 
 import "./App.css";
@@ -48,6 +49,15 @@ function App() {
           logoHeight={"65"}
         />
       </div>
+
+      <div>
+          <Card
+        theme='moon'
+        cardImage='./logo512.png'
+        title='Moon!'
+        value='Write a caption!'/>
+      </div>
+      
 
       <Button theme={"midnight"} value={"Submit"} size={"monster"} />
 
