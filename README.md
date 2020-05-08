@@ -6,7 +6,7 @@
 
 1. Create an empty GitHub repo and clone it to your local machine.
    <br>
-   <img src="./public/proTip.png" width="20">Pro tip: for a seamless React install use the naming convention "lovercase-hyphen"
+   <img src="./public/proTip.png" width="20">Pro tip: for a seamless React install use the naming convention "lowercase-hyphen"
 
 1. Navigate to the root of your github repo in your text editor (The repo should be empty, this is perfect!)
 
