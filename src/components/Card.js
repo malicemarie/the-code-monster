@@ -4,19 +4,23 @@ import "./style.css";
 
 const Card = ({ theme, cardImage, value, title }) => {
   return (
-    <wrapper>
     <div>
       <div className="row">
         <div className="col-md-4">
           <div className={`card ${theme}`}>
-            <div><img className="img-fluid" src={cardImage} alt="Gaga"  /></div>
-                <div><span className="card">{title}</span></div>
-            <div><p className="card-p">{value}</p></div>
+            <div>
+              <img className="img-fluid" src={cardImage} alt="Gaga" />
+            </div>
+            <div>
+              <span className="card">{title}</span>
+            </div>
+            <div>
+              <p className="card-p">{value}</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    </wrapper>
   );
 };
 

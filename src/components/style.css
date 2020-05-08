@@ -1,115 +1,4 @@
-
 /* ---------------------- MAIN CSS ----------------------*/
-
-/* Max's Form Styles */
-textarea {
-  resize: none;
-}
-
-.text-action {
-  box-sizing: border-box;
-  height: 50px;
-  display: flex;
-  justify-self: center;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-#midnight-form-el-wrapper{
-  background-color: rgb(97, 111, 126);
-}
-
-#sunset-form-el-wrapper{
-  background-color: rgb(196, 161, 116);
-}
-
-#lagoon-form-el-wrapper{
-  background-color: rgb(157, 172, 182);
-}
-
-#moon-form-el-wrapper{
-  background-color: lightgray;
-}
-
-.email-input {
-  padding: 0px;
-  margin: 0px;
-}
-
-#contact-form {
-  display: flex;
-  justify-content: center;
-  margin: .2rem;
-}
-
-.form-header {
-    display: flex;
-    justify-content: flex-start;
-}
-
-.form-elements {
-    display: flex;
-    flex-flow: column;
-    text-align: center;
-    width: 500px;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-bottom: .3em;
-}
-
-.midnight-label {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 25px;
-    color: white;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-}
-
-.lagoon-label {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 20px;
-  color: white;
-  height: 30px;
-  display: flex;
-  justify-content: center;
-}
-
-.midnight-label {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 20px;
-  color: white;
-  height: 30px;
-  display: flex;
-  justify-content: center;
-}
-
-.moon-label {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 20px;
-  color: black;
-  height: 30px;
-  display: flex;
-  justify-content: center;
-}
-
-.sunset-label {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 20px;
-  color: #f8de7e;
-  height: 30px;
-  display: flex;
-  justify-content: center;
-}
-
-#btnWrapper {
-  margin: .5rem;
-  box-sizing: border-box;
-  height: 50px;
-  display:flex;
-  justify-content: space-between;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -240,8 +129,9 @@ img {
 .moon a:hover,
 .moon button:hover,
 .moon.btn:hover {
-  background-color: #cacad0;
+  background-color: #4c4c4c;
   border: none;
+  color: white;
 }
 
 .moon a {
@@ -281,6 +171,126 @@ img {
 
 .btn-default:hover {
   background-color: red;
+}
+
+/**************** Search Bar Styling *********************/
+
+.search-bar input {
+  padding-right: 30px;
+  width: 60%;
+}
+
+.search-bar button {
+  margin-left: 20px;
+  background-color: #454545;
+}
+/********************* Max's Form Styles******************** */
+textarea {
+  float: right;
+}
+
+.text-action {
+  box-sizing: border-box;
+  height: 50px;
+  display: flex;
+  justify-self: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#midnight-form-el-wrapper {
+  background-color: #454545;
+}
+
+#sunset-form-el-wrapper {
+  background-color: #860d09;
+}
+
+#lagoon-form-el-wrapper {
+  background-color: #84a5c8;
+}
+
+#moon-form-el-wrapper {
+  background-color: #c8c8c8;
+}
+
+.email-input {
+  padding: 0px;
+  margin: 0px;
+}
+
+#contact-form {
+  display: flex;
+  justify-content: center;
+  margin: 0.2rem;
+}
+
+.form-header {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.form-elements {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  width: 500px;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 0.3em;
+}
+
+.midnight-label {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 25px;
+  color: white;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.lagoon-label {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: white;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.midnight-label {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: white;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.moon-label {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: black;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.sunset-label {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: #f8de7e;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+#btnWrapper {
+  margin: 0.5rem;
+  box-sizing: border-box;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 /* -------------------- SOCIAL ICONS ------------------------*/
@@ -367,17 +377,17 @@ img {
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
- 
- html {
+
+html {
   box-sizing: border-box;
   -ms-overflow-style: scrollbar;
 }
 
-*,
+/* *,
 *::before,
 *::after {
   box-sizing: inherit;
-}
+} */
 
 .container {
   width: 100%;
@@ -411,7 +421,11 @@ img {
   }
 }
 
-.container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+.container-fluid,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -420,25 +434,35 @@ img {
 }
 
 @media (min-width: 576px) {
-  .container, .container-sm {
+  .container,
+  .container-sm {
     max-width: 540px;
   }
 }
 
 @media (min-width: 768px) {
-  .container, .container-sm, .container-md {
+  .container,
+  .container-sm,
+  .container-md {
     max-width: 720px;
   }
 }
 
 @media (min-width: 992px) {
-  .container, .container-sm, .container-md, .container-lg {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg {
     max-width: 960px;
   }
 }
 
 @media (min-width: 1200px) {
-  .container, .container-sm, .container-md, .container-lg, .container-xl {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl {
     max-width: 1140px;
   }
 }
@@ -463,11 +487,75 @@ img {
   padding-left: 0;
 }
 
-.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
-.col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
-.col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
-.col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
-.col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12,
+.col,
+.col-auto,
+.col-sm-1,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm,
+.col-sm-auto,
+.col-md-1,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md,
+.col-md-auto,
+.col-lg-1,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg,
+.col-lg-auto,
+.col-xl-1,
+.col-xl-2,
+.col-xl-3,
+.col-xl-4,
+.col-xl-5,
+.col-xl-6,
+.col-xl-7,
+.col-xl-8,
+.col-xl-9,
+.col-xl-10,
+.col-xl-11,
+.col-xl-12,
+.col-xl,
 .col-xl-auto {
   position: relative;
   width: 100%;
