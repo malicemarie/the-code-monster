@@ -1,5 +1,4 @@
 import React from "react";
-
 import Navbar from "./components/Navbar";
 import Button from "./components/Button";
 import Footer from "./components/Footer";
@@ -7,6 +6,7 @@ import Social from "./components/Social";
 import Form from "./components/Form";
 import Card from "./components/Card";
 import Search from "./components/Search";
+import Figure from "./components/Figure";
 
 import "./App.css";
 
@@ -62,6 +62,14 @@ function App() {
           placeholder3={"Email"}
           btnValue1={"Submit"}
           btnValue2={"Clear"}
+        />
+      </div>
+
+      <div>
+        <Figure
+          theme={"midnight"}
+          caption={"Who are ya gonna call?"}
+          imageSrc={"https://www.fillmurray.com/500/500"}
         />
       </div>
 
