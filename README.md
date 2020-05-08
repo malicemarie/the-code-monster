@@ -25,17 +25,12 @@ If all is well the React app will automatically install - this takes a few minut
 1. Once React has completed, navigate to the root of your new app and run the following to install Code Monster dependencies:
 
 ```bash
-npm install monster
+npm install the-code-monster
 ```
 
-2. Once Code Monster has installed you must also install bootstrap for sizing and response using:
+Be sure you see the-code-monster in your `package.json` under dependencies. If not, re run install with the `--save` flag.
 
-```bash
-npm install bootstrap
-```
-
-## Import Components & Bootstrap
-
+## Import Components
 
 1. Import your components in the `App.js` file at the root of your React App
 
@@ -49,29 +44,23 @@ or if you would like to use multiple elements:
 import { Button, Footer } from "monster";
 ```
 
-2. Import Bootstrap in the `index.js` file at the root of your app
-
-```javascript
-import "bootstrap/dist/css/bootstrap.css";
-```
-
 ## Props
 
 - You can pass any information you would like into the component using props.
-- View our [documentation](https://github.com/monster) for a full list of available props and classes for each component.
 - Call the Component and pass the props in the `App.js` file in the root of your React App
 
-See this example, the client is using the Button and the Header from code-monser.
+See this example, the client is using the Button and the Header from the-code-monser.
 
 ```javascript
 import React from "react";
-import { Button, Paragraph } from "publish-npm-feztheforeigner";
+import { Button, Paragraph } from "the-code-monster";
 
 function App() {
   return (
     <div className="App">
-      <Button value={"Submit"} />
-      <Header links={"Home"} theme={"midnight"} logo={"logo.png"} />
+      <Button theme={"moon"} value={"Submit"} />
+
+      <Header theme={"midnight"} logo={"logo.png"} />
     </div>
   );
 }
@@ -79,9 +68,11 @@ function App() {
 
 <img src="./public/proTip.png" width="20">Pro Tip: If the prop name is plural you will likely want to use .map() to move an array of items into the component
 
-Don't forget - View Classes and Properties [here](https://DEPLOYED-STORYBOOK-HERE)
+Don't forget - you can view further documentation [here](https://DEPLOYED-STORYBOOK-HERE)
 
 ## Working Together
+
+### Bootstrap
 
 Code Monster and Bootstrap go hand in hand. Use our themes and compenent designs and add your own bootstrap custom sizing or use the default Code Monster provides.
 
@@ -92,3 +83,16 @@ For example you can add inline styling or addition props to adjust the width of 
   <div class="col-sm-12 col-lg-6"></div>
 </div>
 ```
+
+### Font Awesome
+
+The Social Links are imported icons from Font Awesome. If you are having trouble rendering the social links on your page you can include a [free font awesome key](https://fontawesome.com/) like this:
+
+```javascript
+<script
+  src="https://kit.fontawesome.com/YOUR KIT NUMBER HERE.js"
+  crossorigin="anonymous"
+></script>
+```
+
+In the head of your `index.html` in the `public` folder provided in your React App setup.
