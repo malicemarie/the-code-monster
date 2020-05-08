@@ -1,3 +1,118 @@
+/* Max's Form Styles */
+textarea {
+  resize: none;
+}
+
+.text-action {
+  box-sizing: border-box;
+  height: 50px;
+  display: flex;
+  justify-self: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#midnight-form-el-wrapper{
+  background-color: rgb(97, 111, 126);
+}
+
+#sunset-form-el-wrapper{
+  background-color: rgb(196, 161, 116);
+}
+
+#lagoon-form-el-wrapper{
+  background-color: rgb(157, 172, 182);
+}
+
+#moon-form-el-wrapper{
+  background-color: lightgray;
+}
+
+.email-input {
+  padding: 0px;
+  margin: 0px;
+}
+
+#contact-form {
+  display: flex;
+  justify-content: center;
+  margin: .2rem;
+}
+
+.form-header {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.form-elements {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    width: 500px;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: .3em;
+}
+
+.midnight-label {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 25px;
+    color: white;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    padding: .1em .7em .3em .4em;
+}
+
+.lagoon-label {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: white;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  padding: .3em .7em .25em .4em;
+}
+
+.midnight-label {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: white;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  padding: .3em .7em .25em .4em;
+}
+
+.moon-label {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: black;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  padding: .3em .7em .25em .4em;
+}
+
+.sunset-label {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: #f8de7e;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  padding: .3em .7em .25em .4em;
+}
+
+#btnWrapper {
+  margin: .5rem;
+  box-sizing: border-box;
+  height: 50px;
+  display:flex;
+  justify-content: space-between;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+/*  */
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
