@@ -4,7 +4,12 @@ import Button from './Button'
 
 
 const ContactForm = ({ theme, onSubmit, onChange, placeholder1, placeholder2, placeholder3, btnValue1, btnValue2}) => (
-    <form id='contact-form' onSubmit={onSubmit}>
+    <div className='container'>
+    
+        <div className='row'>
+            <div className='col-md-2'></div>
+            <div className='col-md-8'>
+            <form id='contact-form' onSubmit={onSubmit}>
     <div className={`form-elements ${theme}`} id={`${theme}-form-el-wrapper`}>
     <label className={`${theme}-label`}>{theme.charAt(0).toUpperCase() + theme.slice(1)} Contact Form</label>
         <input  className="text-action"  type='text' placeholder={placeholder1}  name='fullName' onChange = {onChange} />
@@ -17,6 +22,11 @@ const ContactForm = ({ theme, onSubmit, onChange, placeholder1, placeholder2, pl
         </div>
    </div>
     </form>
+            </div>
+            <div className='col-md-2'></div>
+        </div>  
+
+    </div>
 );
 
 export default ContactForm
