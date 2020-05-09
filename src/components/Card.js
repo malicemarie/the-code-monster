@@ -9,11 +9,12 @@ const Card = ({ theme, cardImage, value, title }) => {
         <div className="col-md-4">
           <div className={`card ${theme}`}>
             <div>
-              <img className="img-fluid" src={cardImage} alt="Gaga" />
+              <h2 className="card">{title}</h2>
             </div>
             <div>
-              <span className="card">{title}</span>
+              <img className="img-fluid" src={cardImage} alt="Gaga" />
             </div>
+
             <div>
               <p className="card-p">{value}</p>
             </div>
