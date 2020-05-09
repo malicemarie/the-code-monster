@@ -15,7 +15,7 @@ const ContactForm = ({
   <div className="container">
     <div className="row">
       <div className="col-md-2"></div>
-      <div className="col-md-8">
+      <div className="col-sm-8">
         <form id="contact-form" onSubmit={onSubmit}>
           <div
             className={`form-elements ${theme}`}
