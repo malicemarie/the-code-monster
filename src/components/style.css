@@ -187,29 +187,26 @@ img {
 
 /* Figure Styles */
 /* Figure styles */
+
 .figure {
   display: flex;
-  flex-flow: column-reverse;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 40px;
+  flex-flow: column;
   width: 200px;
-  margin-inline-end: 40px;
   box-sizing: content-box;
   margin: 5px;
   position: relative;
 }
 
 .figureImage {
+  width: inherit;
   box-sizing: border-box;
-  height: 150px;
-  padding: 0px 5px 20px;
 }
 
 .figureLabel {
-  position: absolute;
-  left: 40px;
-  bottom: 5px;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
 }
 /********************* Max's Form Styles******************** */
 textarea {

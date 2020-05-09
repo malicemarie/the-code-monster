@@ -49,8 +49,8 @@ function App() {
         <Card
           theme={"midnight"}
           cardImage={"./gagamidnight.jpeg"}
-          title={"Midnight"}
-          value={"Write a caption!"}
+          title={"Fame Monster"}
+          value={"Write a caption here"}
         />
       </div>
 
@@ -68,8 +68,8 @@ function App() {
       <div>
         <Figure
           theme={"midnight"}
-          caption={"Who are ya gonna call?"}
-          imageSrc={"https://www.fillmurray.com/500/500"}
+          caption={"I wanna hold 'em like they do in Texas, please"}
+          imageSrc={"./fameMonster.jpg"}
         />
       </div>
 
