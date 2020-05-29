@@ -35,14 +35,14 @@ Be sure you see the-code-monster in your `package.json` under dependencies. If n
 1. Import your components in the `App.js` file at the root of your React App
 
 ```javascript
-import { Header } from "monster";
+import { Header } from "the-code-monster";
 ```
 
 or if you would like to use multiple elements:
 
 ```javascript
-import { Button, Footer } from "monster";
-```
+import { Button, Footer } from "the-code-monster";
+
 
 ## Props
 
