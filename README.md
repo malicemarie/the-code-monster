@@ -42,7 +42,7 @@ or if you would like to use multiple elements:
 
 ```javascript
 import { Button, Footer } from "the-code-monster";
-```
+
 
 ## Props
 

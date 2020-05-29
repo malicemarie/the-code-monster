@@ -1,6 +1,6 @@
 {
   "name": "the-code-monster",
-  "version": "0.1.0",
+  "version": "2.2.0",
   "description": "React Component Library",
   "private": false,
   "license": "(ISC OR GPL-3.0)",
@@ -24,7 +24,7 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "publish:npm": "SET NODE_ENV=production && rm -rf dist && mkdir dist && npx babel src/components --out-dir dist --copy-files",
+    "publish:npm": "set NODE_ENV=production && rm -rf dist && mkdir dist && npx babel src/components --out-dir dist --copy-files",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
